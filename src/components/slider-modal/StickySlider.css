@@ -1,0 +1,18 @@
+.sticky-slider {
+  width: 100%;
+  background: transparent;
+  box-shadow: none;
+}
+.slide-pane__content {
+  padding: 0;
+}
+.sticky-slider-wrapper {
+  width: 60vw;
+  height: 100vh;
+  overflow-y: auto;
+  margin: 0 !important ;
+  margin-left: auto !important;
+  padding-top: 0;
+  background: #f5f7f9;
+  z-index: 9999999;
+}

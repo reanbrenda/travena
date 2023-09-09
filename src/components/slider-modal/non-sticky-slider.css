@@ -1,0 +1,33 @@
+.non-sticky-slider {
+  margin-left: auto;
+  z-index: 1000;
+}
+.slide-pane__content {
+  padding: 0;
+  background: #fafafa;
+}
+
+.slide-pane_from_bottom {
+  background: red;
+  margin-top: 30vh;
+}
+
+.content-after-open {
+  transform: translateY(-100%);
+}
+
+.content-before-close {
+  transform: translateY(0%);
+}
+
+.slider-three-quarter {
+  height: 75%;
+}
+
+.slider-half {
+  height: 50%;
+}
+
+.slider-quarter {
+  height: 30%;
+}
